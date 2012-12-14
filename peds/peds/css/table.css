@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+table {
+	background-color: #FFF;
+	border-left: 1px solid #bec8d3;
+	border-right: 1px solid #bec8d3;
+	border-bottom: 1px solid #bec8d3;
+	color: #202020;
+	font-size:12px;
+	width:100%;
+	border-collapse: collapse;
+
+	
+	}
+
+
+table, td, th {
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	text-align: center;
+	border-right:1px solid #d4d7e0;
+	white-space:nowrap;
+	
+}
+
+.color_blue{ color:#0069db}
+
+tbody td{
+	background-color: #FFFFFF;
+	padding:4px;
+	height:19px;
+	
+	
+	
+	
+}
+
+
+
+thead th {
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing:1px;
+	line-height: 19px;
+	text-align:center;
+	background:url(../img/home/table_nav.jpg) repeat-x;
+	padding-top:0px;
+	border-bottom:1px solid #bec8d3;
+	color:#124d6f;
+}
+
+tbody tr.newline th,tbody tr.newline td {
+	background-color: #edf1ff;
+
+}
+
+
+
+/*-------[鼠标经过行变色]------*/
+#table_tr_over td{
+	background:#d7e4f0;
+}
+
+/*-------[表格超链接颜色]------*/
+table a{ padding-right:10px; padding-left:10px ; }
+table a:link,table a:visited {
+	color:#0069db;
+	text-decoration:none;background:none; font-weight:normal
+}
+
+table a:hover,table a:active {
+	color:#FF0000;
+	text-decoration:underline;background:none; font-weight:normal
+}
+	
+
+
+/*-------[表格select栏]------*/
+table tbody .select { padding:0px 2px; color:#0069db; width:120px; }
+table tbody  .inside{ text-align:center; width:120px; color:#0069db;}
+
+
+/*---------------------------------------表单table------------------------------------*/
+
+.form_table{
+    color: #202020;
+	font-size:12px;
+	width:100%;
+	border-collapse: collapse;
+	letter-spacing:1px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	border:none;
+	}
+
+.form_table td{
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	border:none;
+	height:42px; 
+	
+	}
+	
+
+.form_table .column{text-align:right; }
+.form_table .right_input{text-align:left;}
+.form_table .center{text-align:center;}
+
+.must_write{ color:red;}
+
+
+
+
+/*-------[表格input栏]------*/
+
+.form_table .inside{ text-align:center; color:#0069db;  border:#b2d5e8 1px solid;padding:2px;}
+.form_table .input{  color:#0069db;  border:#b2d5e8 1px solid; padding:2px; background-color:transparent;}
+
+/*-------[表格btn]------*/
+.form_table .btn{ width:63px; height:20px; background:url(../img/window/btn01.jpg) no-repeat; border:none; cursor:pointer; line-height:20px;}
+
+
+

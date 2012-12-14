@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/* CSS Document */
+.top {
+	width: 100%;
+	height: 60px;
+	background: url(../img/main_top_bg.jpg) repeat-x;
+}
+
+.top_left{
+	width: 134px;
+	height: 64px;
+	_background: none;
+	position: absolute;
+	left: 11px;
+	top: 12px
+}
+
+.top_right {
+	width: 100%;
+	float: left;
+	height: 30px;
+	position: absolute;
+	top: 5px;
+	right: 11px;
+}
+
+.top_right ul {
+	float: right;
+}
+
+.top_right ul li {
+	float: left;
+	margin-left: 12px
+}
+
+.top_right ul li a {
+	display: block;
+	width: 64px;
+	height: 54px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+}
+
+.top_right ul li a span {
+	display: block;
+	height: 18px;
+	width: 66px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: normal
+}
+
+/**************************首页***********************/
+.icon_home a:link,.icon_home a:visited {
+	background: url(../img/home_icon.gif) no-repeat;
+}
+
+.icon_home a:hover {
+	background: url(../img/home_icon.gif) no-repeat 0px -54px;
+}
+
+.icon_home a:active {
+	background: url(../img/home_icon.gif) no-repeat 0px -108px;
+}
+
+/**************************管理员portal***********************/
+.icon_portal a:link,.icon_portal a:visited {
+	background: url(../img/admin_icon.gif) no-repeat;
+}
+
+.icon_portal a:hover {
+	background: url(../img/admin_icon.gif) no-repeat 0px -54px;
+}
+
+.icon_portal a:active {
+	background: url(../img/admin_icon.gif) no-repeat 0px -108px;
+}
+
+/**************************个人设置***********************/
+.icon_setting a:link,.icon_setting a:visited {
+	background: url(../img/setting_icon.gif) no-repeat;
+}
+
+.icon_setting a:hover {
+	background: url(../img/setting_icon.gif) no-repeat 0px -54px;
+}
+
+.icon_setting a:active {
+	background: url(../img/setting_icon.gif) no-repeat 0px -108px;
+}
+
+/**************************帮助***********************/
+.icon_help a:link,.icon_help a:visited {
+	background: url(../img/help_icon.gif) no-repeat;
+}
+
+.icon_help a:hover {
+	background: url(../img/help_icon.gif) no-repeat 0px -54px;
+}
+
+.icon_help a:active {
+	background: url(../img/help_icon.gif) no-repeat 0px -108px;
+}
+
+/**************************退出***********************/
+.icon_exit a:link,.icon_exit a:visited {
+	background: url(../img/exit_icon.gif) no-repeat;
+}
+
+.icon_exit a:hover {
+	background: url(../img/exit_icon.gif) no-repeat 0px -54px;
+}
+
+.icon_exit a:active {
+	background: url(../img/exit_icon.gif) no-repeat 0px -108px;
+}
+
+/********************************************导航栏********************************************/
+.nav {
+	width: 100%;
+	height: 5px;
+	background: url(../img/nav_bg.jpg) repeat-x;
+}
+
+.nav .user {
+	float: left;
+	height: 20px;
+	background: url(../img/user_icon.jpg) no-repeat;
+	color: #057ecd;
+	margin-left: 12px;
+	text-indent: 20px;
+	line-height: 20px;
+	display: inline
+}
+
+.nav .user span {
+	color: #4c4c4c;
+}
+
+.nav .scroll {
+	float: left;
+	width: 476px;
+	height: 20px;
+	background: url(../img/nav_icon.jpg) 0px -58px no-repeat;
+	text-indent: 20px;
+	line-height: 20px;
+	margin-left: 52px;
+	letter-spacing: 1px
+}
+
+.nav .scroll a:link,.nav .scroll a:visited {
+	color: #0e71dd;
+}
+
+.nav .scroll a:hover,.nav .scroll a:active {
+	text-decoration: underline;
+	background: none;
+	font-weight: normal
+}
+
+.nav .download {
+	float: right;
+	margin-right: 12px;
+	background: url(../img/nav_icon.jpg) 0px -29px no-repeat;
+	color: #4c4c4c;
+	text-indent: 20px;
+	line-height: 20px;
+	display: inline
+}
+
+.nav .download span {
+	color: #0064d1;
+	letter-spacing: 2px
+}
+
+.nav .download a {
+	text-decoration: underline;
+	font-weight: normal
+}
+
+.nav .download a:link,.nav .download a:visited {
+	background: none;
+	color: #0e71dd
+}
+
+.nav .download a:hover,.nav .download a:active {
+	background: #d8e9ff;
+	font-weight: normal
+}

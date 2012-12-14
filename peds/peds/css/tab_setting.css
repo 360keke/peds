@@ -1,0 +1,58 @@
+﻿body{ background:url(../img/home/right_bg.jpg) repeat-x; width:100%; height:100%;}
+
+.wrap_setting{ width:848px; height:363px; margin:25px auto; position:relative;}
+.wrap_setting .left{ background: url(../img/home/seting_bgside.jpg) 0px 0px no-repeat; float:left; width:6px; height:363px;}
+.wrap_setting .center{ background: url(../img/home/setting_bg.jpg) repeat-x; float:left;  width:836px; height:363px;}
+.wrap_setting .right{ background: url(../img/home/seting_bgside.jpg) -6px 0px no-repeat; float:left; width:6px; height:363px;}
+ 
+.wrap_setting .icon{ background:url(../img/home/img_settinginfo.jpg) no-repeat; width:309px; height:284px; position:absolute; right:0px; bottom:0px;}
+
+#tab_settingnav {
+	width:100%;
+	float:left;
+	position:absolute;
+	top:5px; left:5px;
+	
+}
+#tab_settingnav ul { 
+      margin:0; 
+	  list-style:none; 
+	  padding: 0;
+ }
+#tab_settingnav li {
+     float:left; 
+	 margin:0; 
+	 text-indent:20px;
+	 line-height:22px;
+	 width:131px;
+	 margin-right:6px;
+	 letter-spacing:2px;
+}
+.settingbg_image{
+	 background: url(../img/home/settingtab_nav.jpg)  no-repeat;
+	 cursor:pointer;
+	 color:#0069db;
+	 
+	 }
+.settingbg_image_onclick{
+	 background: url(../img/home/settingtab_nav.jpg) 0px -22px no-repeat;
+	 color:#0069db;
+	 font-weight:bold;
+	 
+	 
+	 
+}
+#tab_settingcont {
+
+}
+
+#tab_settingcont table{ border:none; background:none; position:absolute; top:35px; left:0px
+}
+#tab_settingcont table td{ border:none; text-align:left;vertical-align:center; background:none}
+
+
+#tab_settingcont .text{ border:#b2d5e8 1px solid;  background-color:#FFFFFF; }
+#tab_settingcont .text .input{ width:196px; background-color:transparent; border:none; height:15px; padding:4px;}
+
+#tab_settingcont .btn{ width:63px; height:20px; background:url(../img/window/btn01.jpg) no-repeat; border:none; cursor:pointer; margin-left:20px; line-height:20px; letter-spacing:2px}
+#tab_settingcont .btn:hover{ background:url(../img/window/btn01.jpg) 0px -20px no-repeat;}

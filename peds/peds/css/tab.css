@@ -1,0 +1,32 @@
+﻿#tab_nav {
+	width:100%;
+	float:left;
+	background-image: url(../img/home/tab_bg.jpg);
+}
+#tab_nav ul { 
+      margin:0; 
+	  list-style:none; 
+	  padding: 0;
+ }
+#tab_nav li {
+     float:left; 
+	 margin:0; 
+	 text-align:center;
+	 line-height:22px;
+	 width:90px;
+	 margin-right:6px;
+	 
+}
+.bg_image{
+	 background: url(../img/home/tab_nav.jpg)  no-repeat;
+	 cursor:pointer;
+	 }
+.bg_image a{color:#202020;}
+.bg_image_onclick{
+	 background: url(../img/home/tab_nav.jpg) 0px -22px no-repeat;
+}
+
+.bg_image_onclick a{color:#124d6f;font-weight:bold;}
+#content {
+
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ScreenMappings>
+	<Screens>
+		<normal_index_buttom_page>/userportal/normal_index_buttom.jsp</normal_index_buttom_page>
+		<normal_index_main_page>/userportal/normal_index_main.jsp</normal_index_main_page>
+		<index_page>/index.jsp</index_page>
+		<bat_process_file_page>/index_file.jsp</bat_process_file_page>
+	</Screens>
+</ScreenMappings>

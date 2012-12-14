@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<servlet-name>invoke</servlet-name>
+		<servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>cn.com.framework.actions.ActionServlet</servlet-class>
+		<init-param>
+			<param-name>GJFiles</param-name>
+			<param-value>/GJFiles/</param-value>
+		</init-param>
+		<init-param>
+			<param-name>UpLoad</param-name>
+			<param-value>/UpLoad/</param-value>
+		</init-param>
+		<init-param>
+			<param-name>action-mappings</param-name>
+			<param-value>/WEB-INF/action_mappings.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>action-manager</param-name>
+			<param-value>cn.com.framework.actions.ActionManager</param-value>
+		</init-param>
+		<init-param>
+			<param-name>screen-mappings</param-name>
+			<param-value>/WEB-INF/screen_mappings.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>invoke</servlet-name>
+		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+
+	<display-name>peds</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

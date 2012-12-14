@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Sun JDK 1.6.0_13">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/jetty-6.1.14.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/jsp-api-2.0.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/servlet-api-2.5-6.1.14.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/dwr.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/derby.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/xerces.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/jetty-util-6.1.14.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/jasper-compiler-5.5.15.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/jasper-runtime-5.5.15.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/jasper-compiler-jdt-5.5.15.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/json.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/framework1.4.jar"/>
+	<classpathentry kind="lib" path="peds/WEB-INF/lib/jdbcpool-0.99.jar"/>
+	<classpathentry kind="output" path="peds/WEB-INF/classes"/>
+</classpath>

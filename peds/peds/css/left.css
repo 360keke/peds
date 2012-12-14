@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left_bg{ background: #e5edfa url(../img/home/left_title.jpg) no-repeat; width:169px; height:100%; float:left}
+.left_bg ul{ width:169px; height:100%; margin-top:26px; overflow:auto}
+.left_bg ul li a{ display:block; line-height:35px; text-indent:44px; height:34px; width:169px; overflow:hidden;white-space:nowrap; text-overflow:ellipsis; letter-spacing:1px}
+.menu_off a{ background:url(../img/home/menu_bg.gif) no-repeat; color:#202020; }
+.menu_on a{ background:url(../img/home/menu_bg.gif) 0px -34px no-repeat; color:#fff; font-weight:600}
+.menu_line{ background:url(../img/home/menu_line.jpg) no-repeat; width:169px; height:2px; line-height:2px; font-size:2px;}
+
+
+/********************************************竖向伸缩条********************************************/
+.left_flex{ background: url(../img/home/flex_y.jpg) repeat-y; width:8px;height:100%; float:left;}
+.left_flex .flex_btn{ background:url(../img/home/flex_btn_right.jpg) no-repeat; width:8px; height:34px; margin-top:200px;cursor:pointer;}
+.left_flex .flex_btn:hover{ background:url(../img/home/flex_btn_right.jpg) 0px -34px;}
+
+.left_flex .flex_btn02{ background:url(../img/home/flex_btn_left.jpg) no-repeat; width:8px; height:34px; margin-top:200px;cursor:pointer;}
+.left_flex .flex_btn02:hover{ background:url(../img/home/flex_btn_left.jpg) 0px -34px;}
+
+
+
+

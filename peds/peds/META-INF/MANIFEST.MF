@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: cn.com.peds.jetty.JettyHander
+Class-Path: /peds/peds/WEB-INF/lib/commons-el-1.0.jar /peds/peds/WEB-INF/lib/commons-logging-1.0.4.jar /peds/peds/WEB-INF/lib/derby.jar /peds/peds/WEB-INF/lib/dwr.jar /peds/peds/WEB-INF/lib/jasper-compiler-5.5.15.jar /peds/peds/WEB-INF/lib/jasper-compiler-jdt-5.5.15.jar 
+ /peds/peds/WEB-INF/lib/jasper-runtime-5.5.15.jar /peds/peds/WEB-INF/lib/jetty-6.1.14.jar /peds/peds/WEB-INF/lib/jetty-util-6.1.14.jar /peds/peds/WEB-INF/lib/jsp-api-2.0.jar /peds/peds/WEB-INF/lib/servlet-api-2.5-6.1.14.jar /peds/peds/WEB-INF/lib/xerces.jar
