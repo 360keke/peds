@@ -1,0 +1,121 @@
+STATUS | wrapper  | 2012/11/13 13:35:42 | Peds Windows Process installed.
+STATUS | wrapper  | 2012/11/13 13:35:42 | Starting the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 13:35:42 | --> Wrapper Started as Service
+STATUS | wrapper  | 2012/11/13 13:35:42 | Java Service Wrapper Community Edition 3.3.1
+STATUS | wrapper  | 2012/11/13 13:35:42 |   Copyright (C) 1999-2008 Tanuki Software, Inc.  All Rights Reserved.
+STATUS | wrapper  | 2012/11/13 13:35:42 |     http://wrapper.tanukisoftware.org
+STATUS | wrapper  | 2012/11/13 13:35:42 | 
+STATUS | wrapper  | 2012/11/13 13:35:42 | Launching a JVM...
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:           following files:
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:             D:\MyEclipseWorkSpace\pedsSpring\bin\..\peds\WEB-INF\lib
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2012/11/13 13:35:43 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:35:43 | 2012-11-13 13:35:43.442::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+INFO   | jvm 1    | 2012/11/13 13:35:43 | 2012-11-13 13:35:43.522::INFO:  jetty-6.1.14
+INFO   | jvm 1    | 2012/11/13 13:35:44 | 2012-11-13 13:35:44.172::INFO:  Started SelectChannelConnector@0.0.0.0:8001
+STATUS | wrapper  | 2012/11/13 13:35:45 | Peds Windows Process started.
+STATUS | wrapper  | 2012/11/13 13:40:14 | Stopping the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 13:40:15 | <-- Wrapper Stopped
+STATUS | wrapper  | 2012/11/13 13:40:17 | Peds Windows Process stopped.
+STATUS | wrapper  | 2012/11/13 13:40:17 | Peds Windows Process removed.
+STATUS | wrapper  | 2012/11/13 13:40:19 | Peds Windows Process installed.
+STATUS | wrapper  | 2012/11/13 13:40:19 | Starting the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 13:40:19 | --> Wrapper Started as Service
+STATUS | wrapper  | 2012/11/13 13:40:19 | Java Service Wrapper Community Edition 3.3.1
+STATUS | wrapper  | 2012/11/13 13:40:19 |   Copyright (C) 1999-2008 Tanuki Software, Inc.  All Rights Reserved.
+STATUS | wrapper  | 2012/11/13 13:40:19 |     http://wrapper.tanukisoftware.org
+STATUS | wrapper  | 2012/11/13 13:40:19 | 
+STATUS | wrapper  | 2012/11/13 13:40:20 | Launching a JVM...
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:           following files:
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:             D:\MyEclipseWorkSpace\pedsSpring\bin\..\peds\WEB-INF\lib
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2012/11/13 13:40:20 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:40:20 | 2012-11-13 13:40:20.923::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+INFO   | jvm 1    | 2012/11/13 13:40:21 | 2012-11-13 13:40:21.023::INFO:  jetty-6.1.14
+INFO   | jvm 1    | 2012/11/13 13:40:21 | 2012-11-13 13:40:21.633::INFO:  Started SelectChannelConnector@0.0.0.0:8001
+STATUS | wrapper  | 2012/11/13 13:40:22 | Peds Windows Process started.
+STATUS | wrapper  | 2012/11/13 13:43:36 | Stopping the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 13:43:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2012/11/13 13:43:39 | Peds Windows Process stopped.
+STATUS | wrapper  | 2012/11/13 13:43:39 | Peds Windows Process removed.
+ERROR  | wrapper  | 2012/11/13 13:55:55 | The PedsWindowsProcess service is not installed - 指定的服务未安装。 (0x424)
+ERROR  | wrapper  | 2012/11/13 13:55:55 | The PedsWindowsProcess service is not installed - 指定的服务未安装。 (0x424)
+STATUS | wrapper  | 2012/11/13 13:56:01 | Peds Windows Process installed.
+STATUS | wrapper  | 2012/11/13 13:56:01 | Starting the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 13:56:01 | --> Wrapper Started as Service
+STATUS | wrapper  | 2012/11/13 13:56:01 | Java Service Wrapper Community Edition 3.3.1
+STATUS | wrapper  | 2012/11/13 13:56:01 |   Copyright (C) 1999-2008 Tanuki Software, Inc.  All Rights Reserved.
+STATUS | wrapper  | 2012/11/13 13:56:01 |     http://wrapper.tanukisoftware.org
+STATUS | wrapper  | 2012/11/13 13:56:01 | 
+STATUS | wrapper  | 2012/11/13 13:56:02 | Launching a JVM...
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:           following files:
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:             D:\MyEclipseWorkSpace\pedsSpring\bin\..\peds\WEB-INF\lib
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2012/11/13 13:56:02 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:56:02 | 2012-11-13 13:56:02.734::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+INFO   | jvm 1    | 2012/11/13 13:56:02 | 2012-11-13 13:56:02.824::INFO:  jetty-6.1.14
+INFO   | jvm 1    | 2012/11/13 13:56:03 | 2012-11-13 13:56:03.414::INFO:  Started SelectChannelConnector@0.0.0.0:8001
+STATUS | wrapper  | 2012/11/13 13:56:04 | Peds Windows Process started.
+STATUS | wrapper  | 2012/11/13 13:56:47 | Stopping the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 13:56:48 | <-- Wrapper Stopped
+STATUS | wrapper  | 2012/11/13 13:56:50 | Peds Windows Process stopped.
+STATUS | wrapper  | 2012/11/13 13:56:50 | Peds Windows Process removed.
+STATUS | wrapper  | 2012/11/13 13:58:07 | Peds Windows Process installed.
+STATUS | wrapper  | 2012/11/13 13:58:07 | Starting the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 13:58:07 | --> Wrapper Started as Service
+STATUS | wrapper  | 2012/11/13 13:58:07 | Java Service Wrapper Community Edition 3.3.1
+STATUS | wrapper  | 2012/11/13 13:58:07 |   Copyright (C) 1999-2008 Tanuki Software, Inc.  All Rights Reserved.
+STATUS | wrapper  | 2012/11/13 13:58:07 |     http://wrapper.tanukisoftware.org
+STATUS | wrapper  | 2012/11/13 13:58:07 | 
+STATUS | wrapper  | 2012/11/13 13:58:08 | Launching a JVM...
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:           following files:
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:             D:\MyEclipseWorkSpace\pedsSpring\bin\..\peds\WEB-INF\lib
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2012/11/13 13:58:08 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/13 13:58:08 | 2012-11-13 13:58:08.754::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+INFO   | jvm 1    | 2012/11/13 13:58:08 | 2012-11-13 13:58:08.834::INFO:  jetty-6.1.14
+INFO   | jvm 1    | 2012/11/13 13:58:09 | 2012-11-13 13:58:09.404::INFO:  Started SelectChannelConnector@0.0.0.0:8001
+STATUS | wrapper  | 2012/11/13 13:58:10 | Peds Windows Process started.
+STATUS | wrapper  | 2012/11/13 14:12:40 | Stopping the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 14:12:41 | <-- Wrapper Stopped
+STATUS | wrapper  | 2012/11/13 14:12:43 | Peds Windows Process stopped.
+STATUS | wrapper  | 2012/11/13 14:12:43 | Peds Windows Process removed.
+STATUS | wrapper  | 2012/11/13 21:41:56 | The Peds Windows Process service was not running.
+STATUS | wrapper  | 2012/11/13 21:41:56 | Peds Windows Process removed.
+STATUS | wrapper  | 2012/11/13 21:44:31 | The Peds Windows Process service was not running.
+STATUS | wrapper  | 2012/11/13 21:44:31 | Peds Windows Process removed.
+STATUS | wrapper  | 2012/11/13 21:56:15 | Stopping the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/13 21:56:18 | Peds Windows Process stopped.
+STATUS | wrapper  | 2012/11/13 21:56:18 | Peds Windows Process removed.

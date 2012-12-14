@@ -1,0 +1,50 @@
+<project name="Venus4A Account Server" default="copy" basedir=".">
+	<property name="project" location="." />
+	<property name="build" location="peds" />
+	<property name="web.dir" location="webapps" />
+	<property name="bin" location="bin" />
+	<property name="lib" location="lib" />
+	<property name="db.dir" location="pedsDB" />
+	<target name="init" depends="clean">
+		<mkdir dir="${build}" />
+		<mkdir dir="${build}/bin" />
+		<mkdir dir="${build}/bin/pedsDB" />
+		<mkdir dir="${build}/log" />
+	</target>
+	<target name="copy" depends="init" description="copy files">
+		<copy todir="${build}/bin">
+			<fileset dir="${bin}" />
+		</copy>
+		<copy todir="${build}/bin/pedsDB">
+			<fileset dir="${db.dir}" />
+		</copy>
+		<copy todir="${build}">
+			<fileset dir="${web.dir}" />
+		</copy>
+		<copy todir="${build}">
+			<fileset dir=".">
+				<include name="**/*.bat" />
+			</fileset>
+		</copy>
+	</target>
+	<target name="update" description="update class files">
+		<copy todir="${build}/bin">
+			<fileset dir="${bin}" />
+		</copy>
+	</target>
+	<target name="tar" depends="copy" description="create tar file">
+		<tar destfile="${build}.tar" basedir="${build}" />
+	</target>
+	<target name="zip" depends="copy" description="create zip file">
+		<zip destfile="${build}.zip" basedir="${build}" />
+	</target>
+	<target name="gzip" depends="tar" description="create gzip file">
+		<gzip src="${build}.tar" zipfile="${build}.tar.gz" />
+	</target>
+	<target name="clean" description="clean up">
+		<delete dir="${build}" />
+	</target>
+	<target name="all" depends="tar,zip,gzip" description="create all file">
+	</target>
+</project>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.v2.service.FileMapper">
+	<resultMap id="fileResultMap" type="File">
+		<id property="id" column="id" />
+		<result property="path" column="path" />
+		<result property="suffix" column="suffix" />
+		<result property="fileName" column="filename" />
+		<result property="length" column="length" />
+		<result property="signature" column="signature" />
+		<result property="createTime" column="createtime" />
+		<result property="updateTime" column="updatetime" />
+		<result property="encryptType" column="encrypttype" />
+		<result property="encryptPwd" column="encryptpwd" />
+		<result property="encryptFileName" column="encryptfilename" />
+		<result property="rsrv1" column="rsrv1" />
+		<result property="rsrv2" column="rsrv2" />
+	</resultMap>
+	<select id="getFileById" parameterType="int"
+		resultMap="fileResultMap">
+		select * from peds_files where id=#{id}
+	</select>
+	<update id="updateFile" parameterType="File">
+		update peds_files set
+		path=#{path},signature=#{signature},updatetime=#{updateTime}
+		where id=#{id}
+	</update>
+	<insert id="addFile" parameterType="File" useGeneratedKeys="true"
+		keyProperty="id">
+		insert into peds_files(path,filename,suffix,length,signature,
+		createtime,updatetime,encrypttype,encryptpwd,encryptfilename)
+		values(#{path},#{fileName},#{suffix},#{length},#{signature}
+		,#{createTime},#{updateTime},#{encryptType},#{encryptPwd},#{encryptFileName})
+	</insert>
+</mapper>

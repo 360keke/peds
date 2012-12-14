@@ -1,0 +1,62 @@
+STATUS | wrapper  | 2012/11/14 20:51:23 | Peds Windows Process installed.
+STATUS | wrapper  | 2012/11/14 20:51:23 | Starting the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/14 20:51:23 | --> Wrapper Started as Service
+STATUS | wrapper  | 2012/11/14 20:51:23 | Java Service Wrapper Community Edition 3.3.1
+STATUS | wrapper  | 2012/11/14 20:51:23 |   Copyright (C) 1999-2008 Tanuki Software, Inc.  All Rights Reserved.
+STATUS | wrapper  | 2012/11/14 20:51:23 |     http://wrapper.tanukisoftware.org
+STATUS | wrapper  | 2012/11/14 20:51:23 | 
+STATUS | wrapper  | 2012/11/14 20:51:23 | Launching a JVM...
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager: WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:           following files:
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:             wrapper-windows-x86-32.dll
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:             wrapper.dll
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:           could be located on the following java.library.path:
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:             D:\MyEclipseWorkSpace\pedsSpring\peds\bin\..\WEB-INF\lib
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:           configuration property.
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2012/11/14 20:51:25 | WrapperManager: 
+INFO   | jvm 1    | 2012/11/14 20:51:25 | 2012-11-14 20:51:25.941::INFO:  Logging to STDERR via org.mortbay.log.StdErrLog
+INFO   | jvm 1    | 2012/11/14 20:51:26 | 2012-11-14 20:51:26 com.cn.v2.common.JettyHander startJetty
+INFO   | jvm 1    | 2012/11/14 20:51:26 | 信息: resourceBase=file:/D:/MyEclipseWorkSpace/pedsSpring/peds/
+INFO   | jvm 1    | 2012/11/14 20:51:26 | 2012-11-14 20:51:26 com.cn.v2.common.JettyHander startJetty
+INFO   | jvm 1    | 2012/11/14 20:51:26 | 信息: tempDir=D:\MyEclipseWorkSpace\pedsSpring\peds\work
+INFO   | jvm 1    | 2012/11/14 20:51:26 | 2012-11-14 20:51:26.090::INFO:  jetty-6.1.14
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 2012-11-14 20:51:27.071:/peds:INFO:  Initializing Spring root WebApplicationContext
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 2012-11-14 20:51:27 org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 信息: Root WebApplicationContext: initialization started
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 2012-11-14 20:51:27 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 信息: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@587c94: display name [Root WebApplicationContext]; startup date [Wed Nov 14 20:51:27 CST 2012]; root of context hierarchy
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 2012-11-14 20:51:27 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 信息: Loading XML bean definitions from ServletContext resource [/WEB-INF/peds-servlet.xml]
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 2012-11-14 20:51:27 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 信息: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@587c94]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1484a05
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 2012-11-14 20:51:27 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1484a05: defining beans [/index.htm,InternalPathMethodNameResolver,viewResolver,loginController,urlMapping]; root of factory hierarchy
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 2012-11-14 20:51:27 org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO   | jvm 1    | 2012/11/14 20:51:27 | 信息: Root WebApplicationContext: initialization completed in 888 ms
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28.049:/peds:INFO:  Initializing Spring FrameworkServlet 'peds'
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28 org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 信息: FrameworkServlet 'peds': initialization started
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 信息: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@d3db51: display name [WebApplicationContext for namespace 'peds-servlet']; startup date [Wed Nov 14 20:51:28 CST 2012]; parent: org.springframework.web.context.support.XmlWebApplicationContext@587c94
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 信息: Loading XML bean definitions from ServletContext resource [/WEB-INF/peds-servlet.xml]
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 信息: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@d3db51]: org.springframework.beans.factory.support.DefaultListableBeanFactory@39e5b5
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@39e5b5: defining beans [/index.htm,InternalPathMethodNameResolver,viewResolver,loginController,urlMapping]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1484a05
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28 org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 信息: FrameworkServlet 'peds': initialization completed in 72 ms
+INFO   | jvm 1    | 2012/11/14 20:51:28 | 2012-11-14 20:51:28.211::INFO:  Started SelectChannelConnector@0.0.0.0:8001
+INFO   | wrapper  | 2012/11/14 20:51:28 | Waiting to start...
+STATUS | wrapper  | 2012/11/14 20:51:29 | Peds Windows Process started.
+INFO   | jvm 1    | 2012/11/14 20:51:31 | com.cn.v2.data.bean.FileBean@40afb9
+INFO   | jvm 1    | 2012/11/14 20:52:40 | 2012-11-14 20:52:40 com.cn.v2.controller.LoginController init
+INFO   | jvm 1    | 2012/11/14 20:52:40 | 信息: 
+STATUS | wrapper  | 2012/11/14 20:54:11 | Stopping the Peds Windows Process service...
+STATUS | wrapper  | 2012/11/14 20:54:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2012/11/14 20:54:14 | Peds Windows Process stopped.
+STATUS | wrapper  | 2012/11/14 20:54:15 | Peds Windows Process removed.

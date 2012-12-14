@@ -1,0 +1,5 @@
+/* button */
+a.btnEncrypt, a.btnDecrypt, a.btnBackup{display:block; width:20px; height:20px; text-indent:-1000px; overflow:hidden; float:left;margin-right: 3px;}
+a.btnEncrypt{background-image: url("../img/file_lock.png")}
+a.btnDecrypt{background-image: url("../img/file_unlock.png")}
+a.btnBackup{background-image: url("../img/file_backup.png");height: 18px; width: 15px;}

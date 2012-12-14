@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+     http://www.springframework.org/schema/context 
+     http://www.springframework.org/schema/context/spring-context.xsd">
+	<!-- 方法名解析器 -->
+	<import resource="classpath:applicationContext-ServicesBeans.xml" />
+	<bean id="InternalPathMethodNameResolver"
+		class="org.springframework.web.servlet.mvc.multiaction.InternalPathMethodNameResolver" />
+
+	<!-- 视图解析器 -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass">
+			<value>org.springframework.web.servlet.view.JstlView</value>
+		</property>
+	</bean>
+	<bean id="loginController"
+		class="com.cn.v2.controller.LoginController">
+		<property name="methodNameResolver">
+			<ref bean="InternalPathMethodNameResolver" />
+		</property>
+	</bean>
+	<bean id="fileMgrController"
+		class="com.cn.v2.controller.FileMgrController">
+		<property name="methodNameResolver">
+			<ref bean="InternalPathMethodNameResolver" />
+		</property>
+		<property name="service" ref="fileMgrService" />
+		<property name="navTabId" value="file_mgr" />
+	</bean>
+	<bean id="catalogMgrController"
+		class="com.cn.v2.controller.CatalogMgrController">
+		<property name="methodNameResolver">
+			<ref bean="InternalPathMethodNameResolver" />
+		</property>
+		<property name="navTabId" value="file_catalog" />
+		<property name="catalogMapper" ref="catalogMapper" />
+	</bean>
+	<bean id="urlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/login/*">loginController</prop>
+				<prop key="/fileMgr/*">fileMgrController</prop>
+				<prop key="/catMgr/*">catalogMgrController</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

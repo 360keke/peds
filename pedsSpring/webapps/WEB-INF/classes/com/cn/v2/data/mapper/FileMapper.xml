@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.v2.data.mapper.FileMapper">
+	<resultMap id="fileResultMap" type="File">
+		<id property="id" column="id" />
+		<result property="path" column="path" />
+		<result property="pathMd5" column="pathmd5" />
+		<result property="suffix" column="suffix" />
+		<result property="fileName" column="filename" />
+		<result property="catalogName" column="catalogname" />
+		<result property="length" column="length" />
+		<result property="signature" column="signature" />
+		<result property="createTime" column="createtime" />
+		<result property="updateTime" column="updatetime" />
+		<result property="catalogId" column="catalogid" />
+		<result property="encryptType" column="encrypttype" />
+		<result property="encryptPwd" column="encryptpwd" />
+		<result property="encryptFileName" column="encryptfilename" />
+		<result property="description" column="description" />
+		<result property="rsrv1" column="rsrv1" />
+		<result property="rsrv2" column="rsrv2" />
+	</resultMap>
+	<sql id="totalCount">select count(1) from peds_files</sql>
+	<sql id="filePagination">
+		offset #{offset} rows fetch next #{nextfetch} rows only
+	</sql>
+	<sql id="getFileList">
+		select file.*,catalog.name as catalogName from peds_files file
+		left join peds_catalog catalog on file.catalogid = catalog.id
+	</sql>
+	<sql id="searchCondition">
+		where 1=1
+		<if test="catalogId !=0">and catalogId=#{catalogId}</if>
+		<if test="name !=null and name !=''">
+			and name like '%'#{name}'%'
+		</if>
+		<if test="suffixs != null and suffixs !=''">
+			and suffixs in( #{suffixs} )
+		</if>
+	</sql>
+	<select id="search" parameterType="Map" resultMap="fileResultMap">
+		<include refid="getFileList" />
+		<include refid="searchCondition" />
+		<if test="orderField != null and orderField !=''">
+			order by ${orderField} ${orderDirection}
+		</if>
+		<include refid="filePagination" />
+	</select>
+	<select id="getFileTotalCount" resultType="long">
+		<include refid="totalCount" />
+		<include refid="searchCondition" />
+	</select>
+	<select id="getFileById" parameterType="int"
+		resultMap="fileResultMap">
+		select * from peds_files where id=#{id}
+	</select>
+	<select id="fileIsExists" parameterType="Map" resultType="int">
+		select count(1) from peds_files where signature=#{signature}
+		<if test="pathmd5 !=null and pathmd5 !=''">
+			and pathmd5=#{pathmd5}
+		</if>
+	</select>
+	<update id="updateFile" parameterType="File">
+		update peds_files set
+		path=#{path},signature=#{signature},updatetime=#{updateTime}
+		where id=#{id}
+	</update>
+	<insert id="addFile" parameterType="File" useGeneratedKeys="true"
+		keyProperty="id">
+		insert into peds_files(path,filename,suffix,length,signature,
+		createtime,updatetime,encrypttype,encryptpwd,encryptfilename,catalogid,pathmd5,description,keywords
+		,rsrv1,rsrv2)
+		values(#{path},#{fileName},#{suffix},#{length},#{signature}
+		,#{createTime},#{updateTime},#{encryptType},#{encryptPwd},#{encryptFileName},#{catalogId},#{pathMd5},
+		#{description},#{keywords},#{rsrv1},#{rsrv1})
+	</insert>
+	<delete id="delFiles" parameterType="String" >delete from peds_files where id in(#{id})</delete>
+	<delete id="delFileById" parameterType="int" >delete from peds_files where id=#{id}</delete>
+</mapper>
